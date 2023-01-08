@@ -1,0 +1,165 @@
+*::selection{
+    background-color: #f8650cc2;
+    color: black;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.feuille {
+    background-color: #FBDFB7;
+    width: 80%;
+    min-width: 500px;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.delimitation {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+
+.headers{
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 75px;
+}
+
+.headers h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+    margin-bottom: 70px;
+    margin-top: 150px;
+}
+
+.texte {
+    padding: 1em;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.5em;
+    background-color:rgba(253, 210, 155, 0.8);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 60px;
+}
+
+strong{
+    color:#ec6615;
+}
+
+.logo_titre{
+    background-color: #FFB037;
+    padding:20px;
+    border-radius: 16px;
+    width: 20%;
+    object-fit:contain;
+}
+
+#pickaxe {
+    transform: rotate(180deg) ;
+    width: 20%;
+}
+
+#img_succes{
+    padding:30px;
+}
+
+.titre{
+    flex: 1;
+    text-align: left;
+    background-color: #FFB037;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0%;
+    margin-left: 10px;
+}
+
+.bloc_titre{
+    margin-top: 40px;
+    display: flex;
+}
+
+h3{
+   font-size: 30px; 
+   letter-spacing: 2px;
+   border-left-style: solid;
+   border-color: #ec6615;
+   padding-left: 15px;
+   border-width: 5px;
+   margin-top: 100px;
+}
+
+.annonce{
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.element_reponse{
+    border-left-style: solid;
+    border-width: 12px;
+    padding-left: 3%;
+    border-color: rgba(255, 131, 0, 0.52);
+    margin-bottom: 60px;
+    border-radius: 1.4%;
+}
+
+blockquote{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.graphique_cours_bitcoin{
+    background-color: #ec6615;
+}
+
+#entre_deux{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+h4{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+
+
+    margin-bottom: 40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius: 10px;   
+}
+
+.signature{
+    opacity: 0.7;
+    font-size:x-large;
+    text-align: center;
+}

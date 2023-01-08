@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #202833;
+}
+
+#limitation {
+
+    max-width: 2200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.headers {
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+
+    padding: 40px;
+    border-radius: 45px;
+    background-color: #FFB037;
+}
+
+.flexbox { 
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.inFlex {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+    padding: 5em;
+
+    border-radius: 100%;
+    background-color: #FBDFB7;
+}
+
+a {
+    color: black;
+    display: block;
+    outline: none;
+    text-decoration: none;
+}
+
+.flexbox  a {
+    margin: 5em;
+}
+
+#creation {
+    margin-left: -250%;
+    opacity: 0%;
+    animation-name: intro_creation;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.54,1.49,.58,.95);
+    animation-delay: 1.5s;
+}
+
+#speculatifs {
+    margin-left: -400%;
+    opacity: 0%;
+    animation-name: intro_speculatifs;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.54,1.49,.58,.95);
+    animation-delay: 1s;
+}
+
+#succes {
+    margin-left: -600%;
+    opacity: 0%;
+    animation-name: intro_succes;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.54,1.49,.58,.95);
+    animation-delay: 0.5s;
+}
+
+#avenir {
+    margin-left: -700%;
+    opacity: 0%;
+    animation-name: intro_avenir;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.54,1.49,.58,.95);
+}
+
+#fonction {
+    margin-left: -150%;
+    opacity: 0%;
+    animation-name: intro_fonction;
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.54,1.49,.58,.95);
+    animation-delay: 2s;
+}
+
+
+
+
+/*Transition*/
+
+.flexbox div:hover {
+    transform: scale(120%);   
+    transition: 0.5s;
+}
+.flexbox div {
+    transition: 0.5s;
+}
+
+
+/*Animations*/
+
+@keyframes intro_fonction {
+    from {
+        margin-left: -150%;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes intro_creation {
+    from {
+        margin-left: -250%;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes intro_speculatifs {
+    from {
+        margin-left: -400%;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes intro_succes {
+    from {
+        margin-left: -600%;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes intro_avenir {
+    from {
+        margin-left: -700%;
+
+    }
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
